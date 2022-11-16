@@ -61,6 +61,7 @@ code{
     background-color: rgb(242, 245, 249);
     padding: 15px;
     border-radius: 4px;
+    margin-bottom: 28px;
     
 }
 @media (min-width: 768px) and (max-width: 1024px){
