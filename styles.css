@@ -61,30 +61,32 @@ code{
     background-color: rgb(242, 245, 249);
     padding: 15px;
     border-radius: 4px;
+    margin: 15px;
     
 }
-@media (min-width: 768px) and (max-width: 1024px){
+@media (max-width: 1024px){
   body{
     width: 100%;
+    flex-direction: column-reverse;
   }
+
   #navbar{
-    width: 30%;
-  }
-  #main-doc{
-    width:70%
-  }
-  
-}
-@media (min-width: 1024px) and (max-width: 1440px){
-  body{
     width: 100%;
+    position: initial;
+    height: 63vh;
+    border: none;
+    border-bottom: 3px solid grey;
   }
-  #navbar{
-    width: 30%;
+  #navbar ul{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 47vh;
+    border: 1px solid grey;
   }
   #main-doc{
-    width:70%;
-    margin-left: 31%;
-  }
-  
+    width:100%;
+    margin: 0;
+
+  } 
+
 }
